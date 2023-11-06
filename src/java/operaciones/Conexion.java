@@ -7,7 +7,7 @@ public class Conexion {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost/rrhh?autoReconnect=true&useSSL=false";
             this.conexion = DriverManager
-                    .getConnection(url,"root","developer");
+                    .getConnection(url,"","");
             System.out.println("Conexion OK");
             return this.conexion;
         } catch (SQLException | ClassNotFoundException e) {
