@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif, Arial, Helvetica
+}
+.btn-submit{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    text-align: center;
+    border: transparent;
+    padding: 10px;
+    border-radius: 4px;
+}
+.btn-submit:hover{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+.login {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.etiqueta {
+    display: block;
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.titulo{
+    text-align: center;
+}
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    border: 1px solid #ddd;
+    margin: 0 ;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 4px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-nuevo {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-nuevo:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+.btn-info {
+    background-color: #17a2b8; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
